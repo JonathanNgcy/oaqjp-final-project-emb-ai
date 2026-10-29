@@ -1,0 +1,7 @@
+UTC: 2026-10-29T18:36:35.908486+00:00
+Directory: /home/project/final_project
+$ /usr/bin/python3 -c 'import requests; from EmotionDetection.emotion_detection import URL, HEADERS, emotion_detector; response = requests.post(URL, headers=HEADERS, json={"raw_document": {"text": ""}}, timeout=30); print("Actual Watson blank-input HTTP status:", response.status_code); assert response.status_code == 400; print("Package blank result:", emotion_detector(""))'
+Actual Watson blank-input HTTP status: 400
+Package blank result: {'anger': None, 'disgust': None, 'fear': None, 'joy': None, 'sadness': None, 'dominant_emotion': None}
+
+Exit status: 0

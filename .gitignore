@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Temporary lab exports and local pylint state
+.pylint_cache/
+static/course-evidence.zip

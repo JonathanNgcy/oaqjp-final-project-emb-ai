@@ -1,0 +1,20 @@
+UTC: 2026-10-29T18:36:35.359082+00:00
+Directory: /home/project/final_project
+$ /usr/bin/python3 test_emotion_detection.py
+test_anger (__main__.TestEmotionDetection)
+Recognize the course's angry statement. ... ok
+test_disgust (__main__.TestEmotionDetection)
+Recognize the course's disgusted statement. ... ok
+test_fear (__main__.TestEmotionDetection)
+Recognize the course's fearful statement. ... ok
+test_joy (__main__.TestEmotionDetection)
+Recognize the course's joyful statement. ... ok
+test_sadness (__main__.TestEmotionDetection)
+Recognize the course's sad statement. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.597s
+
+OK
+
+Exit status: 0

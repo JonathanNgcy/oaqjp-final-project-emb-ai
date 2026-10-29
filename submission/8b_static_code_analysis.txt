@@ -1,0 +1,9 @@
+UTC: 2026-10-29T18:36:40.095183+00:00
+Directory: /home/project/final_project
+$ /usr/bin/python3 -m pylint server.py
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+
+Exit status: 0

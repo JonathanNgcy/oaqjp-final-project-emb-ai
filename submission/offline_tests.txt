@@ -1,0 +1,36 @@
+UTC: 2026-10-29T18:36:35.656551+00:00
+Directory: /home/project/final_project
+$ /usr/bin/python3 -m unittest -v test_offline
+test_api_rejected_text (test_offline.TestFlaskRoutes)
+Map Watson's HTTP 400 result to the required interface message. ... ok
+test_blank_and_missing_text (test_offline.TestFlaskRoutes)
+Show the exact required invalid-input message. ... ok
+test_formatted_output (test_offline.TestFlaskRoutes)
+Display all scores and the bold dominant emotion in a sentence. ... ok
+test_home_and_static_script (test_offline.TestFlaskRoutes)
+Serve the unchanged starter page and JavaScript. ... ok
+test_service_error_display (test_offline.TestFlaskRoutes)
+Show a service message that the provided JavaScript can display. ... ok
+test_each_dominant_emotion (test_offline.TestOfflineDetector)
+Choose the maximum score across each of the five emotion keys. ... ok
+test_empty_and_invalid_inputs (test_offline.TestOfflineDetector)
+Reject missing, whitespace-only, and non-string input locally. ... ok
+test_http_400 (test_offline.TestOfflineDetector)
+Return all six None values for Watson's bad-request response. ... ok
+test_http_failure (test_offline.TestOfflineDetector)
+Surface server errors as service failures. ... ok
+test_malformed_payloads (test_offline.TestOfflineDetector)
+Reject invalid JSON, missing predictions, and invalid score values. ... ok
+test_network_failures (test_offline.TestOfflineDetector)
+Distinguish service failures from invalid user input. ... ok
+test_request_and_output (test_offline.TestOfflineDetector)
+Send the exact course URL, model header, and JSON envelope. ... ok
+test_zero_and_tied_scores (test_offline.TestOfflineDetector)
+Return a deterministic emotion even when all scores are zero. ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.027s
+
+OK
+
+Exit status: 0
